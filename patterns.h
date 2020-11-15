@@ -32,7 +32,7 @@ LightSequence fullBlinkSeq = {
  * Define the default patterns
  */
 Pattern allOn [] = {
-  { {1,1,1,1,1}, 1000 },
+  { {1,1,1,1,1}, 1000 }
 };
 
 LightSequence allOnSeq = { 
@@ -81,14 +81,6 @@ Pattern breaksToggle [] = {
   { {0,0,1,0,0} ,1000 },
 };
 LightSequence breaksToggleSeq = { "BREAKSTOGGLE" , ARRAY_LENGTH(breaksToggle) , breaksToggle };
-/*
-// Alternating top bottom
-Pattern topBottom [] = {
-  { {1,0,0,0,1}, 1000 },
-  { {0,1,1,1,0} , 1000 }
-};
-LightSequence topBottomSeq = { "TOPBOTTOM", ARRAY_LENGTH(topBottom) , topBottom };
-*/
 
 // Cylon Sequence
 Pattern cylon [] = {
